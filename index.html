@@ -7,33 +7,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Prociono" rel="stylesheet">
 </head>
 
-<body>
-
+<body style="background-color:slategray">
   <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Kevin Kafuku</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+      <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand">Connect With Me   <i class="fas fa-globe"></i></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/kevinkafuku">GitHub  <i class="fab fa-github"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/kevin-kafuku-466113148">LinkedIn <i class="fab fa-linkedin"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.dice.com/profile/publicview/1f03c108033176752e828a8301994a7b">Dice <i class="fas fa-dice-three"></i></a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              <h1>Kevin Kafuku</h1>
+              <br>
+              <h6>Code Wizard Aspirant    <i class="fas fa-magic"></i></h6>
+            </span>
+          </div>
+        </nav>
     </div>
   </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
-
-      <p>Marshmellow jelly souffle pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll souffle topping wafer criossant oat cake gummi bears.</p>
-
-      <p>Jelly-o cheesceake dessert fruitcake ice cream brownie liquorice souffle. Caramels biscuit gummi bears tiramisu chupa cups. Croissant macaroon cotton candy cake pudding.</p>
-
-    </section>
-
+  <br>
+  <br>
+  <div class="card border-dark mb-3" style="max-width: 98%; background-color: lightslategray">
+    <div class="card-header header1">Welcome.</div>
+    <br>
+    <div class="row">
+      <div class="col-md-4">
+      <img src="assets/images/kev.jpg" class="img-thumbnail" alt="kevo" style="margin: 0px 0px 0px 10px">
+      </div>
+      <div class="col-md-4">
+        <h1 class="summaryheader">About The Author</h1><p class="summary">Hello world my name is kevin</p>
+      </div>
+      <div class="col-md-4">
+      <h5 class="mywork">Some Of My Work: </h5>
+          <div class="card border-dark mb-3" style="width: 12rem;">
+              <img class="card-img-top" src="assets/images/marv.gif" alt="Card image cap">
+              <div class="card-body">
+              <h5 class="card-title"><a class="link" href="https://github.com/kevinkafuku">Marvel Giphy API.</a></h5>
+                <p class="card-text biography">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+          </div>
+          <div class="card border-dark mb-3" style="width: 12rem;">
+              <img class="card-img-top" src="assets/images/nbanba.gif" alt="Card image cap">
+              <div class="card-body">
+              <h5 class="card-title"><a class="link" href="https://github.com/kevinkafuku">NBA Trivia Game.</a></h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <div class="card border-dark mb-3" style="width: 12rem;">
+                <img class="card-img-top" src="assets/images/traintime.gif" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+      </div>
+    </div>
   </div>
 
   <footer>
