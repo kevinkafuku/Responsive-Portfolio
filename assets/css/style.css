@@ -1,36 +1,69 @@
-.border-dark {
+.border-primary {
   margin: auto;
 }
 
+.border-light {
+  margin: auto;
+}
+
+.border-warning {
+  margin: auto;
+}
+
+.summary1 {
+  color: gold;
+  font-family: 'Prociono', serif;
+  text-align: center;
+
+}
 #logo {
   margin-left: 0px;
   width: 100%;
 }
 
 .navbar {
-  background-image: url("https://ak8.picdn.net/shutterstock/videos/22858108/thumb/1.jpg");
+  background-image: url("http://papers.co/wallpaper/papers.co-nf78-city-night-bokeh-blue-red-romantic-dark-36-3840x2400-4k-wallpaper.jpg");
   font-family: 'Prociono', serif;
   width:98%;
   text-align: center;
   margin: auto;
-  color: white;
+  color:white;
   font-size: 24px;
 }
 
-.nav-link {
-  color: rgb(51, 164, 240);
+.github {
+  color: lightgreen;
+}
+
+.linkedin {
+  color: rgba(36, 8, 216, 0.815);
+}
+
+.dice {
+  color: red;
 }
 
 navbarText {
   color: white;
 }
-
 .header1 {
+  font-family: 'Jockey One', sans-serif;
   text-align: center;
-  background-image: url("https://ak8.picdn.net/shutterstock/videos/22858108/thumb/1.jpg");
-  color: white;
+  color:gold;
+  font-size: 20px;
 }
 
+.Title {
+  font-weight: bolder;
+  font-family: 'Jockey One', sans-serif;
+  font-size: 40px;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-family: 'Jockey One', sans-serif;
+  font-size: 20px;
+}
 
 .card-about-me {
   float: left;
@@ -43,25 +76,76 @@ navbarText {
 }
 
 .summaryheader {
+  font-family: 'Prociono', serif;
   text-align: center;
-  color: white;
+  color:darkred;
 }
 
+
 .summary {
+  font-family: 'Prociono', serif;
   text-align: center;
-  color: white;
+  color:darkred;
 }
 
 .mywork {
-  text-align: center;
-  color: white;
-}
-
-.card {
-  background-color: grey;
   font-family: 'Prociono', serif;
+  font-size: 30px;
+  text-align: center;
+  color:gold;
+}
+.Marvel {
+  color: white;
+  font-family: 'Bangers', cursive;
+  background-color: red;
 }
 
 body {
   background-color: black;
+}
+
+.Ghosty {
+  color: white;
+  font-family: 'Love Ya Like A Sister', cursive;
+  background-color: black;
+  font-size: 20px;
+}
+
+.Dragon-Ball {
+  color: green;
+  font-family: 'Metal Mania', cursive;
+  background-color: gold;
+  font-size: 20px;
+}
+
+.Train {
+  color: blueviolet;
+  font-family: 'IM Fell English SC', serif;
+  background-color: turquoise;
+  font-size: 20px;
+}
+
+.Psychic {
+  color: purple;
+  font-family: 'Special Elite', cursive;
+  background-color: black;
+  font-size: 20px;
+}
+
+.NBA {
+  color: white;
+  font-family: 'Bungee Inline', cursive;
+  background-color: blue;
+}
+.group {
+  font-weight: bold;
+}
+
+footer {
+  color:white;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  color: plum;
 }
